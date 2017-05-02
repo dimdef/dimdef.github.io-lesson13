@@ -1,0 +1,15 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+}
+
+@keyframes color {
+  0% {
+    background-color: gray;
+  }
+
+  to {
+    background-color: purple;
+  }
+}

@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'PantonBlackCaps';
+	src: url('/fonts/PantonBlackCaps.eot');
+	src: url('/fonts/PantonBlackCaps.eot') format('embedded-opentype'),
+	url('/fonts/PantonBlackCaps.woff2') format('woff2'),
+	url('/fonts/PantonBlackCaps.woff') format('woff'),
+	url('/fonts/PantonBlackCaps.ttf') format('truetype'),
+	url('/fonts/PantonBlackCaps.svg#PantonBlackCaps') format('svg');
+}
+
+@font-face {
+	font-family: 'PantonLightCaps';
+	src: url('/fonts/PantonLightCaps.eot');
+	src: url('/fonts/PantonLightCaps.eot') format('embedded-opentype'),
+	url('/fonts/PantonLightCaps.woff2') format('woff2'),
+	url('/fonts/PantonLightCaps.woff') format('woff'),
+	url('/fonts/PantonLightCaps.ttf') format('truetype'),
+	url('/fonts/PantonLightCaps.svg#PantonLightCaps') format('svg');
+}
+
+.dark {
+	font-family: 'PantonBlackCaps', sans-serif;
+
+}
+.light {
+	font-family: 'PantonLightCaps', sans-serif;
+
+}
+
+.row {
+	width: 100vw;
+	margin-left: 0;
+	margin-right: 0;
+}
+.header-line1 {
+	height: 10.2rem;
+	background-color: #fff;
+	text-align: center;
+}
+.text-line1 {
+	display: inline-block;
+	p {
+		.dark;	
+		margin-top: 25px;	
+		color:	rgb(54, 54, 54);
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+}
+.text-line2 {
+	display: inline-block;
+	margin-left: 50%;
+
+	p {	
+		.dark;
+		height: 1.5rem;
+		color: #363636;
+		font-size: 1.875rem; /* Approximation due to font substitution */
+		font-weight: 700;
+		text-align: left;
+	}
+	a {
+		margin-bottom: 5px;
+		.light;
+		border-radius: 5px;
+		border-width: 1px;
+		border-color: #282828;
+		border-style: solid;
+		width: 266px;
+		height: 50px;
+		color: rgb(54, 54, 54);
+		font-size: 1.5rem; /* Approximation due to font substitution */
+		font-weight: 600;
+		text-align: center;
+		text-decoration: none;
+		&:hover {
+			color: rgb(54, 54, 54);
+			text-transform: none;
+			text-decoration: none;
+		}
+	}
+}
+.header-line2 {
+	
+	height: 93px;
+	background-color: #292d30;
+}
+.header-nav {
+	display: inline-block;
+	
+}
+.nav-item {
+	display: inline-block;	
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 16px;
+	a {	
+		.light;
+		color: #ffffff;
+		font-size: 1.875rem; /* Approximation due to font substitution */
+		font-weight: 300;
+		text-align: center;
+		text-transform: none;
+		text-decoration: none;
+		&:hover {
+			color: #ffffff;
+			text-decoration: none;
+
+		}
+	}
+}
+.header-main {
+	background: url(../img/bg.jpg) no-repeat center center;; 
+	background-size: cover;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}	
